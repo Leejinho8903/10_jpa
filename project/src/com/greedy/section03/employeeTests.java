@@ -87,7 +87,7 @@ public class employeeTests {
     	emp.setSalary(4300000);
     	emp.setBonus(1.5);
     	emp.setManagerId(null);
-    	emp.setHireDate(null);
+    	emp.setHireDate(new java.sql.Date(System.currentTimeMillis()));
     	emp.setEntDate(null);
     	emp.setEntYn(null);
     	
